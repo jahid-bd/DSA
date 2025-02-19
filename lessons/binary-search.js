@@ -58,7 +58,7 @@
 //100cr
 
 const arr1 = [10, 15, 20, 25, 30, 40, 50]; // accending order
-const target = 25;
+const target = 50;
 
 function binarySearch(arr, target) {
   let start = 0;

@@ -58,6 +58,6 @@ function targetIndices(nums, target) {
 
 const nums = [2, 1, 3, 2, 7, 5, 2, 9, 2, 4, 1, 2];
 
-console.log(targetIndices(nums, 2));
+console.log(targetIndices(nums, 3));
 // console.log(targetIndices([1, 2, 5, 2, 3], 3));
 // console.log(targetIndices([1, 2, 5, 2, 3], 5));

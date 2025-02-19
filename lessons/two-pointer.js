@@ -53,4 +53,4 @@ function isPalindrom(arr) {
   return true;
 }
 
-console.log(isPalindrom('racecar'));
+console.log(isPalindrom("racecar"));

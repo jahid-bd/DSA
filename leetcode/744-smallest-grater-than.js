@@ -54,4 +54,4 @@ console.log(nextGreatestLetter(['x', 'x', 'y', 'y'], 'z'));
 console.log(nextGreatestLetter(['c', 'f', 'j'], 'j'));
 console.log(nextGreatestLetter(['c', 'f', 'j'], 'g'));
 console.log(nextGreatestLetter(['a', 'b', 'c', 'd', 'e', 'f', 'g'], 'e'));
-console.log(nextGreatestLetter(['e', 'e', 'g', 'g', 'h', 'h'], 'h'));
+console.log(nextGreatestLetter(['e', 'e', 'e', 'g', 'g', 'h', 'h'], 'e'));
