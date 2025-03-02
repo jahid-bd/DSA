@@ -101,12 +101,14 @@ class List {
 
 const list1 = new List(10);
 list1.append(20);
-list1.append(30);
-list1.append(40);
-list1.appendAtPosition(50, 2);
-list1.appendAtPosition(100, 6);
+// list1.append(30);
+// list1.append(40);
+// list1.appendAtPosition(50, 2);
+// list1.appendAtPosition(100, 6);
 
-list1.update(15, 2);
+// list1.update(15, 2);
 
-list1.delete(2);
-list1.print();
+// list1.delete(2);
+// list1.print();
+
+console.log(list1);
