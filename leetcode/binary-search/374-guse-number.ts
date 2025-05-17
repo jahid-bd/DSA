@@ -11,10 +11,11 @@
  * @param {number} n
  * @return {number}
  */
-var guessNumber = function (n) {
-  let left = 1;
-  let right = n;
-  let mid;
+
+function guessNumber(n: number): number {
+  let left: number = 1;
+  let right: number = n;
+  let mid: number = Math.floor((left + right) / 2);
 
   while (left <= right) {
     mid = Math.floor((left + right) / 2);
@@ -28,10 +29,12 @@ var guessNumber = function (n) {
       left = mid + 1;
     }
   }
-};
 
-function guess(num) {
-  const g = Math.floor(Math.random() * 6);
+  return mid;
+}
+
+function guess(num: number): number {
+  const g: number = Math.floor(Math.random() * 6);
 
   if (num < g) {
     return -1;
